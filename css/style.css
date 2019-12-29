@@ -1,0 +1,125 @@
+
+body {
+  padding-left: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  margin: 2em 0 2em 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px 10px;
+  font-size: 16px;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(77, 75, 75);
+}
+
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.home {
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 4px 15px ;
+}
+
+.home:hover{
+  color: white;
+  background-color:  rgb(77, 75, 75);
+  border: 1px solid  rgb(77, 75, 75);
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.table{
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.table tr:hover {background-color:rgb(236, 236, 236);}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.table thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+.td_update {
+  width: 400px;
+}
+
+input {
+  background-color: white;
+  padding: 6px 20px;
+  border: solid 1px rgb(197, 196, 196);
+  padding-left: 8px;
+}
+
+button {
+  padding: 6px 15px;
+}
+
+.add {
+  border: 1px solid rgb(149, 200, 149);
+  padding-left: 8px;
+  font-size: 14px;
+}
+
+.validate {
+  border: none;
+  border-radius: 5%;
+  background-color: rgb(149, 200, 149);
+  font-size: 14px;
+}
+
+.validate:hover{
+  background-color: green ;
+  color: white;
+}
+
+
+.delete{
+  border: none;
+  border-radius: 5%;
+  background-color: rgb(233, 176, 176) ;
+}
+.delete:hover{
+  background-color: red ;
+  color: white;
+}
+
+.update{
+  border: none;
+  border-radius: 5%;
+  background-color: rgb(163, 188, 221) ;
+}
+.update:hover{
+  background-color:blue ;
+  color: white;
+}
+
+.update_data{
+  border: 1px solid rgb(163, 188, 221);
+  padding-left: 8px;
+}
